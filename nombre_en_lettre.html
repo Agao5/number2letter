@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width" />
+<title>conversion</title>
+<script type="text/javascript" src="num2ltr.js"></script>
+<script>
+function convert()
+{
+ var nombre=document.getElementById('number')
+  nombre=nombre.value
+  var answer=document.getElementById('rep')
+	answer.innerHTML=num2ltr(nombre)
+}
+</script>
+</head>
+<body>
+  <h1>Convertir un nombre en toute lettre</h1>
+  <div class="container">
+    <input type="number" name="" id="number" value="" />
+    <br><br>
+    <input type="button" name="" id="" value="Convertir" onclick="convert()"/>
+    <div id="rep">
+      la reponse sera ici
+    </div>
+  </div>
+  <h3>vous trouvez d'erreur ?<br>
+  <a href="https://www.facebook.com/capacity.nissan">signalez le !</a></h3>
+  
+</body>
+</html>
